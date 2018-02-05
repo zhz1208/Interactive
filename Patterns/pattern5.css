@@ -1,0 +1,15 @@
+
+body {
+  background: #F1F1F1;
+}
+
+#dino div {
+  width: 0;
+  height: 0;
+  border-top: 50px double #F5E1DA;
+  border-left: 50px double #476269;
+  border-right: 50px double #40A798;
+  border-bottom: 50px double #F5E1DA;
+  margin: 0px;
+  float: left;
+}

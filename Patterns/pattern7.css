@@ -1,0 +1,35 @@
+
+body {
+    background: #F5C7F7;
+}
+
+#dino div {
+    width: auto;
+    height: 6vw;
+    border-top: 10vw solid #5E63B6;
+    border-left: 5vw dotted #27296D;
+    border-bottom: 10vw solid #A393EB;
+    margin: 4vw;
+    float: left;
+
+}
+
+#triangles {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0vw;
+    left: 0;
+}
+
+#triangles div { 
+    width: 0;
+    height: 0;
+    border-left: 10vw solid transparent;
+    border-right: 0vw solid transparent;
+    border-top: 20vw solid #F7F6E7;
+    float: right;
+    box-shadow: 20px 20px 20px 
+        rgba(50,50,50,.2);
+    mix-blend-mode: overlay;
+}

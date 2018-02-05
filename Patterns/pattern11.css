@@ -1,0 +1,56 @@
+body {
+    background-color: #F0FFF3; 
+}
+
+#hexagon {
+  width: 120vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#hexagon div {
+  position: relative;
+  overflow: hidden;
+  background:transparent;
+  /* add slash at the end of line to see the rhombus *
+  outline: solid 1px red;/**/
+  width: 10em; height: 10em;
+  transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+  float: left;
+  margin: 40px -11px;
+}
+
+#hexagon div:before {
+  position: absolute;
+  right: 6.7%; bottom: 0; left: 6.7%; top: 0;
+  transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+  background: radial-gradient(circle, red, yellow, green);
+  content: '';
+}
+
+#hexagon2 {
+  width: 120vw;
+  position: fixed;
+  top: -120px;
+  left: -70px;
+}
+
+#hexagon2 div {
+  position: relative;
+  overflow: hidden;
+  background:transparent;
+  /* add slash at the end of line to see the rhombus *
+  outline: solid 1px red;/**/
+  width: 10em; height: 10em;
+  transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+  float: left;
+  margin: 40px -11px;
+}
+#hexagon2 div:before {
+  position: absolute;
+  right: 6.7%; bottom: 0; left: 6.7%; top: 0;
+  transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+  background: radial-gradient(circle, red, yellow, green);
+  content: '';
+}

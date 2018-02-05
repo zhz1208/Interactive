@@ -1,0 +1,84 @@
+body {
+    background-color: white; 
+}
+
+#wave {
+  width: 120vw;
+	position: fixed;
+}
+
+
+
+#wave div {
+  position: relative;
+  height: 20px;
+  width: 135px;
+  background: #80aaff;
+  float: left;
+  margin: 0 0 100px 0;
+
+}
+
+#wave div:before {
+        content: "";
+        display: block;
+        position: relative;
+        border-radius: 100% 50%;
+        width: 70px;
+    height: 20px;
+    background-color: white;
+    left: 68px;
+    top: 10px;
+}
+
+#wave div:after {
+        content: "";
+        display: block;
+        position: relative;
+        border-radius: 100% 50%;
+        width: 70px;
+    height: 20px;
+    background-color: #80aaff;
+    left: 0;
+    top: -11px;
+}
+
+#wave2 {
+  width: 120vw;
+	position: fixed;
+	top: 108px;
+}
+
+#wave2 div {
+  position: relative;
+  height: 20px;
+  width: 135px;
+  background: #80aaff;
+  float: left;
+  margin: 0 0 100px 0;
+
+}
+
+#wave2 div:before {
+        content: "";
+        display: block;
+        position: relative;
+        border-radius: 100% 50%;
+        width: 70px;
+    height: 20px;
+    background-color: white;
+    left: 0px;
+    top: -10px;
+}
+
+#wave2 div:after {
+        content: "";
+        display: block;
+        position: relative;
+        border-radius: 100% 50%;
+        width: 70px;
+    height: 20px;
+    background-color: #80aaff;
+    left: 68px;
+    top: -31px;
+}

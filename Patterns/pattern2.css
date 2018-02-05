@@ -1,0 +1,61 @@
+body {
+    background-color: #FBFBFB; 
+}
+
+#squares {
+    width: auto; 
+    position: fixed;
+    left: auto;
+}
+
+#squares div{
+    height: 8vw; 
+    width: 0.5vw;
+    background-color: #F38181;
+    margin: 5vw;
+    float: left;
+    transform: rotate(45deg); 
+}
+
+#squares-after {
+    width: auto; 
+    position: fixed;
+    left: auto;
+}
+    
+#squares-after div{
+    height: 8vw; 
+    width: 0.5vw;
+    background-color: #F38181;
+    margin: 5vw;
+    float: left;
+    transform: rotate(-45deg); 
+}
+
+#circles {
+    width: auto; 
+    position: fixed;
+    left: auto;
+}
+
+#circles div {
+    height: 4vw;
+    width: 1vw;
+    background-color: #756C83;
+    border-radius: 50%;
+    margin: 6vw;
+    float: left;
+    mix-blend-mode: overlay;
+}
+
+#circles-after div {
+    height: 4vw;
+    width: 1vw;
+    background-color: #756C83;
+    border-radius: 50%;
+    margin: 6vw;
+    float: left;
+    mix-blend-mode: overlay;
+    transform: rotate(90deg);
+}
+

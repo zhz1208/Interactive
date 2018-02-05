@@ -1,0 +1,41 @@
+
+body {
+    background: #FFBC67;
+}
+
+#dino div {
+    width: auto;
+    height: 6vw;
+    border-top: 5vw solid #AC6C82;
+    border-left: 5vw dotted #455C7B;
+    border-right: 5vw dotted #455C7B;
+    border-bottom: 5vw solid #DA727E;
+    margin: 1vw;
+    float: left;
+}
+
+#dino:after div {
+    width: auto;
+    height: auto;
+    border-left: 5vw solid #455C7B;
+    border-right: 5vw solid #455C7B;
+    border-top: 4vw solid #455C7B;
+    border-bottom: 4vw solid #455C7B;
+    float: left;
+}
+
+#circles {
+    width: auto; 
+    position: fixed;
+    top: auto; 
+    left: auto;
+}
+
+#circles div {
+    height: 2vw;
+    width: 2vw;
+    background-color: #685C79;
+    border-radius: 50%;
+    margin: 5vw;
+    float: left;
+}

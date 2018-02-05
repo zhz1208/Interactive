@@ -1,0 +1,16 @@
+
+body {
+    background: #3E3947;
+}
+
+#dino div {
+    width: 0;
+    height: 0;
+    border-top: 5vw groove #F1B0B0;
+    border-left: 5vw groove #D68684;
+    border-right: 5vw groove #D68684;
+    border-bottom: 5vw groove #EBD0C4;
+    margin: 1vw;
+    float: left;
+}
+

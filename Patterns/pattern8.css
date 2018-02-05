@@ -1,0 +1,63 @@
+body {
+    background-color:#769FCD; 
+}
+
+#squares {
+    width: auto; 
+    position: fixed;
+    left: auto;
+}
+
+#squares div{
+    height: 20px; 
+    width: 2px;
+    background-color: #D6E6F2;
+    margin: 5vw;
+    float: left;
+    transform: rotate(60deg); 
+}
+
+#squares-2 {
+    width: auto; 
+    position: fixed;
+    left: auto;
+}
+
+#squares-2 div{
+    height: 20px; 
+    width: 2px;
+    background-color: #D6E6F2;
+    margin: 5vw;
+    float: left;
+    transform: rotate(120deg); 
+}
+
+#squares-3 {
+    width: auto; 
+    position: fixed;
+    left: auto;
+}
+
+#squares-3 div{
+    height: 20px; 
+    width: 2px;
+    background-color: white;
+    margin: 5vw;
+    float: left;
+}
+
+#squares .tomato {
+    background-color: tomato;
+    transform: rotate(30deg); 
+}
+
+#squares-2 .tomato {
+    background-color: tomato;
+    transform: rotate(90deg); 
+}
+
+#squares-3 .tomato {
+    background-color: tomato;
+    transform: rotate(150deg); 
+}
+

@@ -1,0 +1,15 @@
+
+body {
+    background: #F1F1F1;
+}
+
+#dino div {
+    width: 8vw;
+    height: 8vw;
+    border-top: 4vw dotted #769FCD;
+    border-left: 4vw dotted  #B9D7EA;
+    border-right: 4vw dotted  #B9D7EA;
+    border-bottom: 4vw dotted  #769FCD;
+    margin: 0vw;
+    float:right;
+}

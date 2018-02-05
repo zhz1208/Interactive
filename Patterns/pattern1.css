@@ -1,0 +1,45 @@
+body {
+    background-color: #F6F6F6; 
+}
+
+#squares div{
+    height: 8vw; 
+    width: 0.5vw;
+    background-color: #FFC7C7;
+    margin: 5vw;
+    float: left;
+    transform: rotate(20deg); 
+}
+
+#circles {
+    width: auto; 
+    position: fixed;
+    top: 2vw; 
+    left: auto;
+}
+
+#circles div {
+    height: 4vw;
+    width: 4vw;
+    background-color: #FFE2E2;
+    border-radius: 50%;
+    margin: 5vw;
+    float: left;
+}
+
+#triangle-left {
+    width: auto; 
+    position: fixed;
+    top: 2vw; 
+    left: auto;
+}
+
+#triangle-left div {
+    width: 0vw;
+    height: 0vw;
+	border-top: 2vw solid transparent;
+	border-right: 4vw solid #8785A2;
+	border-bottom: 2vw solid transparent;
+    margin: 5vw;
+    float: left;
+}

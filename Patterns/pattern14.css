@@ -1,0 +1,295 @@
+body {
+    background-color:#FEFAEC; 
+}
+
+#curvedarrow1 {
+  position: fixed;
+  top: -100px;
+  left: -40px;  
+}
+#curvedarrow2 {
+  position: fixed;
+  top: -40px;
+  left: -40px;
+}
+
+#curvedarrow3 {
+  position: fixed;
+  top: -40px;
+  left: -100px;
+}
+
+#curvedarrow4 {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+#curvedarrow5 {
+  position: fixed;
+  top: -55px;
+  left: -185px;  
+}
+#curvedarrow6 {
+  position: fixed;
+  top: 5px;
+  left: -185px;
+}
+
+#curvedarrow7 {
+  position: fixed;
+  top: 5px;
+  left: -245px;
+}
+
+#curvedarrow8 {
+  position: fixed;
+  top: -55px;
+  left: -245px;
+}
+
+
+#curvedarrow1 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  margin: 35px;
+  float: left;
+}
+#curvedarrow1 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+#curvedarrow2 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  margin: 35px;
+  float: left;
+}
+
+#curvedarrow2 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+#curvedarrow3 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(190deg);
+  -moz-transform: rotate(190deg);
+  -ms-transform: rotate(190deg);
+  -o-transform: rotate(190deg);
+  margin: 35px;
+  float: left;
+}
+
+#curvedarrow3 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+
+#curvedarrow4 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(280deg);
+  -moz-transform: rotate(280deg);
+  -ms-transform: rotate(280deg);
+  -o-transform: rotate(280deg);
+  margin: 35px;
+  float: left;
+}
+
+#curvedarrow4 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+
+#curvedarrow5 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  margin: 35px;
+  float: left;
+}
+#curvedarrow5 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+#curvedarrow6 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  margin: 35px;
+  float: left;
+}
+
+#curvedarrow6 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+#curvedarrow7 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(190deg);
+  -moz-transform: rotate(190deg);
+  -ms-transform: rotate(190deg);
+  -o-transform: rotate(190deg);
+  margin: 35px;
+  float: left;
+}
+
+#curvedarrow7 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+
+#curvedarrow8 div {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-right: 27px solid #F9A1BC;
+  -webkit-transform: rotate(280deg);
+  -moz-transform: rotate(280deg);
+  -ms-transform: rotate(280deg);
+  -o-transform: rotate(280deg);
+  margin: 35px;
+  float: left;
+}
+
+#curvedarrow8 div:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 9px solid #F9A1BC;
+  border-radius: 60px 0 0 0;
+  top: -36px;
+  left: -27px;
+  width: 36px;
+  height: 36px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+     
+
+

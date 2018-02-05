@@ -1,0 +1,82 @@
+body {
+    background-color: #444F5A; 
+}
+
+#cube div{
+	float: left;
+	margin: 10px 20px;
+}
+
+#cube div div {
+	float: none;
+	margin: 0;
+
+}
+
+
+.petal1 {
+width: 30px;
+	height: 10px;
+	background: #FFC8C8;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+        transform: rotate(90deg);
+    position: relative;
+    top: 10px;
+    left: 20px;
+       margin-top: 60px; 
+}
+
+.petal2 {
+width: 30px;
+	height: 10px;
+	background: #FFC8C8;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+        transform: rotate(18deg);
+    position: relative;
+    top: 14px;
+    left: 2px;
+    
+}
+
+.petal3 {
+width: 30px;
+	height: 10px;
+	background: #FFC8C8;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+        transform: rotate(162deg);
+    position: relative;
+    top: 4px;
+    left: 38px;
+}
+
+.petal4 {
+width: 30px;
+	height: 10px;
+	background: #FFC8C8;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+        transform: rotate(234deg);
+    position: relative;
+    top: 16px;
+    left: 32px;
+}
+
+.petal5 {
+width: 30px;
+	height: 10px;
+	background: #FFC8C8;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+        transform: rotate(306deg);
+    position: relative;
+    top: 6px;
+    left: 8px;
+}
