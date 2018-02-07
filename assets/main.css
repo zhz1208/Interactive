@@ -7,6 +7,14 @@ body {
     font-family: 'Avenir Next';
 }  
 
+h0 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 96px;
+    color:#7D8F95;   
+    text-align: right;
+}
+
 h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
