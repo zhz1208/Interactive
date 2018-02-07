@@ -2,9 +2,12 @@
 body {
     background-color:white;
     margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-family: 'Avenir Next';
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family:"Avenir Next";
+    src: url(avenirnext-regular.ttf);
+    src: url(avenirnext-demibold.ttf);
+    src: url(avenirnext-ultralight.ttf);
 }  
 
 h0 {
@@ -12,7 +15,6 @@ h0 {
     font-weight: 600;
     font-size: 96px;
     color:#7D8F95;   
-    text-align: right;
 }
 
 h1 {
@@ -49,8 +51,15 @@ a:hover {
     grid-template-columns: auto auto auto;
 }
 .grid-item {
-    border: 4px solid white;
+    border: 0px solid white;
     padding: 0px;
     font-size: 30px;
     text-align: center;
 }
+
+
+
+
+
+
+
