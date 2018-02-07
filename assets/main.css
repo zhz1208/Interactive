@@ -2,8 +2,8 @@
 body {
     background-color:white;
     margin-top: 40px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
     font-family:"Avenir Next";
     src: url(avenirnext-regular.ttf);
     src: url(avenirnext-demibold.ttf);
@@ -51,7 +51,7 @@ a:hover {
     grid-template-columns: auto auto auto;
 }
 .grid-item {
-    border: 0px solid white;
+    border: 10px solid white;
     padding: 0px;
     font-size: 30px;
     text-align: center;
