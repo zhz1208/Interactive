@@ -1,0 +1,27 @@
+
+body {
+  background: #F1F1F1;
+}
+
+#dino {
+	width: 110vw;
+}
+
+#dino div {
+  width: 0;
+  height: 0;
+  border-top: 50px double #F5E1DA;
+  border-left: 50px double #476269;
+  border-right: 50px double #40A798;
+  border-bottom: 50px double #F5E1DA;
+  border-radius: 50px;
+  border-style: double;
+  margin: 0px;
+  float: left;
+}
+
+#dino div:hover{
+    border-radius: 0px;
+    
+}
+

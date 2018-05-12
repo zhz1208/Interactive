@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    max-width: 2200px;
+}
+
+p::selection { display: none; }
+a::selection { display: none; }
+
+
+#k {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#idea {
+    position: absolute;
+    font-size: 120px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color:white;
+    text-align: right;
+    z-index: 0;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+}

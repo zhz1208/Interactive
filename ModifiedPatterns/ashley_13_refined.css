@@ -1,0 +1,109 @@
+body {
+    background-color: #6B5E62;
+}
+
+
+#circles {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;  
+}
+
+#circles div {
+
+	width: 30vw;
+	height: 10vw;
+	border-bottom: dotted #EAFFFD;
+    margin: 10vw;
+    float: left;
+    border-radius: 50%;
+    opacity: .5;
+    display:block;
+    transform: rotate(180deg);
+
+}
+
+
+#circles_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;  
+}
+
+#circles_2 div {
+
+	width: 40vw;
+	height: 10vw;
+	border-bottom: dotted #EFEFF0;
+    margin: 2vw;
+    float: left;
+    border-radius: 50%;
+    opacity: .5;
+    display:block;
+    transform: rotate(20deg);
+
+}
+
+#circles_3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;  
+}
+
+#circles_3 div {
+
+	width: 40vw;
+	height: 10vw;
+	background-color: #EFEFF0;
+    margin: 2vw;
+    float: left;
+    border-radius: 50%;
+    opacity: .5;
+    display:block;
+    transform: rotate(20deg);
+    box-shadow: 20px 20px 20px 
+        rgba(50,50,50,1);
+}
+
+#circles_4 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;  
+}
+
+#circles_4 div {
+
+	width: 4vw;
+	height: 4vw;
+	background-color: #EFEFF0;
+    margin: 2vw;
+    float: left;
+    border-radius: 50%;
+    opacity: .2;
+    display:block;
+    transform: rotate(20deg);
+
+}
+
+#triangle {
+    position: absolute;
+    width: 110vw;
+    height: 110vh;
+    top: -10px;
+    left: -10px;
+}
+
+#triangle div {
+    width: 0;
+    height: 0;
+    border-left: 15vw solid transparent;
+    border-right: 0vw solid transparent;
+    border-bottom: 50vw solid rgb(255, 0, 0);
+    border-bottom: 50vw solid rgba(255, 0, 0, .2);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    float: left;
+    box-shadow: 20px 20px 20px 
+        rgba(50,50,50,0.5);
+    mix-blend-mode: overlay;
+}

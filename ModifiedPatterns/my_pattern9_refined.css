@@ -1,0 +1,136 @@
+body {
+    background-color: #444F5A; 
+}
+
+#cube {
+    width: 110vw;
+}
+
+#cube div{
+    float: left;
+    margin: 10px 20px;
+    mix-blend-mode: overlay;
+}
+
+#cube div div {
+    float: none;
+    margin: 2px;
+}
+
+
+.petal1 {
+    width: 24px;
+    height: 8px;
+    background: #FFC8C8;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-top: 60px; 
+}
+
+.petal2 {
+    width: 24px;
+    height: 8px;
+    background: #FFC8C8;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    transform: rotate(18deg);
+    position: relative;
+    top: 14px;
+    left: 2px;
+
+}
+
+.petal3 {
+    width: 24px;
+    height: 8px;
+    background: #FFC8C8;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    transform: rotate(162deg);
+    position: relative;
+    top: 4px;
+    left: 38px;
+}
+
+.petal4 {
+    width: 24px;
+    height: 8px;
+    background: #FFC8C8;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    transform: rotate(234deg);
+    position: relative;
+    top: 16px;
+    left: 32px;
+}
+
+.petal5 {
+    width: 24px;
+    height: 8px;
+    background: #FFC8C8;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    transform: rotate(306deg);
+    position: relative;
+    top: 6px;
+    left: 8px;
+}
+
+#circles {
+    position: absolute;
+    width: 110vw;
+    left: 28px;
+    top: 17px;
+}
+
+#circles div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: grey;
+    float: left;
+    mix-blend-mode: overlay;
+}
+
+#balls {
+    position: absolute;
+    width: 110vw;
+    left: 28px;
+    top: 19px;
+}
+
+#balls div {
+    width: 70px;
+    height: 70px;	
+    border-radius: 35px;
+    background-color: red;
+    background-image: radial-gradient(circle 93px at 0 0, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,.8)), 
+        radial-gradient(circle 42px at 21px 19px, rgba(255,255,255,.7), rgba(0,0,0,0));
+    background-repeat: no-repeat, no-repeat;
+    position:relative;
+    float: left;
+    margin: 1px;
+}
+
+#balls div:after {
+    content: "";
+    z-index: -1;
+    top: 51px; 
+    left: 35px;
+    position: absolute;
+    background-color: black;
+    border-radius: 65px 14px;
+    width: 35px;
+    height: 19px;
+    box-shadow: 1px 0 1px black;
+    opacity: .8;
+}

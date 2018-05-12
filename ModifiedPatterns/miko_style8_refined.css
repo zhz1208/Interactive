@@ -1,0 +1,91 @@
+body {
+  background-color: #280F34;
+  margin: 0;
+}
+
+#phases {
+  margin: 20vh 0 20vh 0;
+}
+
+.moon div {
+  height: 7vw;
+  width: 7vw;
+  background-color: #FFFEE6;
+  border-radius: 50%;
+  float: left;
+  margin: 5vw;
+  margin-right: 4vw;
+  box-shadow: 0px 0px 5px 5px #FFFEE6;
+}
+
+#overlay {
+  position: absolute;
+  width: 110vw;
+}
+
+.earth div {
+  height: 7vw;
+  width: 7vw;
+  background-color: #280F34;
+  border-radius: 50%;
+  float: left;
+  margin: 5vw;
+  margin-right: 5.55vw;
+  box-shadow: 0px 0px 3px 3px #280F34;
+}
+
+.rect div {
+  height: 10vw;
+  width: 0vw;
+  background-color: transparent;
+  float: left;
+  margin: 5vw;
+}
+
+#overlay2 {
+  position: absolute;
+  width: 110vw;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+#chevron {
+  position: relative;
+  float: left;
+  text-align: center;
+  padding: 5vw;
+  margin-bottom: 6px;
+  height: 100vh;
+  width: 6vw;
+}
+
+#chevron:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50vh;
+  width: 8vw;
+  background: blue;
+  -webkit-transform: skew(35deg, 0deg);
+  -moz-transform: skew(35deg, 0deg);
+  -ms-transform: skew(35deg, 0deg);
+  -o-transform: skew(35deg, 0deg);
+  transform: skew(35deg, 0deg);
+}
+
+#chevron:after {
+  content: '';
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  height: 50vh;
+  width: 8vw;
+  background: blue;
+  -webkit-transform: skew(-35deg, 0deg);
+  -moz-transform: skew(-35deg, 0deg);
+  -ms-transform: skew(-35deg, 0deg);
+  -o-transform: skew(-35deg, 0deg);
+  transform: skew(-35deg, 0deg);
+}​

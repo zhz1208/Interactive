@@ -1,0 +1,81 @@
+body{
+		background: yellow;
+		margin:0;
+		}
+#diamond {
+	width: 0;
+	height: 0;
+	border: 50px double transparent;
+	border-bottom-color: #ffffff;
+	position: relative;
+	top: -50px;
+	float:left;
+	margin:3vw;
+	border-radius: 50%;
+
+}
+#diamond:after {
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 50px;
+	width: 0;
+	height: 0;
+	border: 50px double transparent;
+	border-top-color: red;
+	float:left;
+	margin:3vw;
+	border-radius: 50%;
+}
+
+#diamond #diamond2 {
+	width: 0;
+	height: 0;
+	border: 50px double transparent;
+	border-bottom-color: red;
+	position: relative;
+	top: -50px;
+	float:left;
+	margin:3vw;
+	transform: rotate(20deg);
+}
+#diamond #diamond2:after {
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 50px;
+	width: 0;
+	height: 0;
+	border: 50px double transparent;
+	border-top-color: #ffffff;
+	float:left;
+	margin:3vw;
+	transform: rotate(20deg);
+}
+
+#lines div{
+	top:-5vw;
+	border: 10px double white;
+	background-color: #001b60;
+	height: 10vw;
+	width: 110px;
+	border-radius: 20%;
+	margin: 8px;
+	float:left;
+	transform: rotate(20deg);
+}
+
+#lines{
+	height: 100vh;
+    width: 100vw;
+    position: fixed;
+    clear: both;
+    mix-blend-mode: overlay;
+
+}
+
+#lines div:hover{
+    rotate:30dge;
+    
+}
+
