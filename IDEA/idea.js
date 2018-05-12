@@ -14,7 +14,7 @@ var Engine = Matter.Engine,
 function ballDrop() {
     var x = Common.random(centerX-400, centerX+400);
 
-    var color = Common.choose(['#ffffff', '#5695C0', '#E2F6F7','#3876A9']);
+    var color = Common.choose(['#FF5C60', '#FFBB73','#FCF582','#C2FA92','#6EC7FC','#BB7FF3']);
 
     var circle = Bodies.circle(x, 20, Common.random(15, 30), { restitution: 0.6, friction: 0.1, render: { fillStyle: color, strokeStyle: 'transparent' } } );
 
@@ -33,7 +33,7 @@ $(function() {
             // center the text
             $("#idea").html("Ideas");
             $("#idea").css("font-size", "280px");
-            $("#idea").css("color", "#DF7695");
+            $("#idea").css("color", "#01E4C0");
             $("#idea").css("right", "50%");
             $("#idea").css("bottom", "50%");
             $("#idea").css("transform", "translate(50%, 50%)");
@@ -63,7 +63,7 @@ $(function() {
             height: windowHeight,
             showAngleIndicator: false,
             wireframes: false,
-            background: '#9ED5E9',
+            background: '#FFFFFF',
         }
     });
 
