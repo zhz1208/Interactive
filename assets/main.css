@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'SentyZHAO';
+    src: url('SentyZHAO.ttf');
+}
+
 
 body {
     background-color:#fed33d;
@@ -5,15 +10,16 @@ body {
     margin-left: 60px;
     margin-right: 60px;
     font-family:"Avenir Next";
-    src: url(avenirnext-regular.ttf);
-    src: url(avenirnext-demibold.ttf);
-    src: url(avenirnext-ultralight.ttf);
+    src: url('avenirnext-regular.ttf');
+    src: url('avenirnext-demibold.ttf');
+    src: url('avenirnext-ultralight.ttf');
 }  
 
 h0 {
+    font-family: "SentyZHAO";
     letter-spacing: 2px;
     font-weight: 600;
-    font-size: 96px;
+    font-size: 60px;
     color:#7E4FFB;   
 }
 
